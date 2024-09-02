@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Domine:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Domine:wght@400..700&display=swap');
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.col-md-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.color_header {
+    background-color: #339569;
+}
+
+.col-md-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.imagen_header {
+    width: 50%;
+    height: auto;
+}
+ul{
+    list-style: none;
+}
+header a{
+    color: black;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: bold;
+}
+header a:hover{
+    color: beige;
+}
+
+footer a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: antiquewhite;
+}
+footer a:hover{
+    color: rgb(17, 19, 18);
+}
+
+.carousel-inner img{
+    padding-top: 15px;
+    height: 350px;
+    object-fit: cover;
+    padding-bottom: 10px;
+}
+.coloruno{
+    background-color: #90B17D;
+}
+.colordos{ 
+    background-color: #DFD6A5;
+}
+h1, h2, h3{
+    padding-top: 20px;
+    text-align: center;
+    color: #070707;
+    font-family: "Aclonica", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font: size 40px;
+}
+p{
+    font-family: "Domine", sans-serif;
+    text-align: justify;
+    font-size: 20px;
+    color: #28292b; 
+    line-height: 1.6;
+}
+
+#eventos, #inicio, #ubicacion{
+    padding-bottom: 20px;
+}
+
+.imagenes {
+    max-height: 250px;
+    width: 100%; 
+    object-fit: cover; 
+    border-radius: 10px; 
+}
+.alto{
+    max-width: 80%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.espacio{
+    margin-bottom: 30px;
+}
+.color_footer{
+    background-color: #4F7B50;
+}
+
+footer p{
+    color: white;
+    font-family: "Domine", sans-serif;
+    text-align: justify;
+    font-size: 15px;
+}
+.estilo{
+    color: white;
+    font-family: "Domine", sans-serif;
+    text-align: center;
+    font-size: 15px;
+}
